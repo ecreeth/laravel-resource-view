@@ -1,0 +1,25 @@
+{
+    "name": "ecreeth/laravel-resource-view",
+    "description": "Generates the structure of views of a resource, its model and its controller",
+    "license": "MIT",
+    "keywords": ["Laravel commands","Artisan commands"],
+    "homepage": "https://github.com/ecreeth/laravel-resource-view",
+    "authors": [
+        {
+            "name": "Luis Miguel Alvarado",
+            "email": "luismiguel1730@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "eCreeth\\LaravelResourceView\\": "vendor/ecreeth/laravel-resource-view/src"
+        }
+    },
+    "autoload-dev": {
+    "psr-4": {
+            "eCreeth\\LaravelResourceView\\": "vendor/ecreeth/laravel-resource-view/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
