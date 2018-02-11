@@ -24,7 +24,7 @@ Para agregar un nuevo recurso junto con su controlador y modelo, sólo tenemos q
 
 `php artisan make:resource-view categories --model --resource --path`
 
-También podemos ejecutar `php artisan make:resource-view posts -m -r -p` y sería el mismo resultado.
+También podemos ejecutar `php artisan make:resource-view categories -m -r -p` y sería el mismo resultado.
 
 ## El comando nos generará lo siguiente
 
