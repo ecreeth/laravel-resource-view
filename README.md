@@ -7,7 +7,7 @@ El comando `php artisan make:resource-view categories` creará una carpeta llama
 * __show.blade.php__
 * __edit.blade.php__
 
-### Cada una de las vistas blade tendrán el siguiente código
+### Cada una de las vistas blade tendrá el siguiente código
 ![Texto alternativo](https://image.ibb.co/m6n6Y7/Screen_Shot_02_10_18_at_06_09_PM.png "Título alternativo")
 
 ### Funcionalidades adicionales del comando
