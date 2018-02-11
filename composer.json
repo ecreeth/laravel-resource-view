@@ -12,14 +12,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "eCreeth\\LaravelResourceView\\": "vendor/ecreeth/laravel-resource-view/src"
+            "eCreeth\\LaravelResourceView\\": "src"
         }
     },
-    "autoload-dev": {
-    "psr-4": {
-            "eCreeth\\LaravelResourceView\\": "vendor/ecreeth/laravel-resource-view/src"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        },
+        "laravel": {
+            "providers": [
+                "eCreeth\\LaravelResourceView\\ResourceViewServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
 }

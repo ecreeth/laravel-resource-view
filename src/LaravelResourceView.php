@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace eCreeth\LaravelResourceView;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -123,10 +123,10 @@ class LaravelResourceView extends Command
      */
     protected function makeResourcesViews()
     {
-        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views/' . $this->name . '/index.blade.php'));
-        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views/' . $this->name . '/create.blade.php'));
-        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views/' . $this->name . '/show.blade.php'));
-        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views/' . $this->name . '/edit.blade.php'));
+        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views\\' . $this->name . '\index.blade.php'));
+        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views\\' . $this->name . '\create.blade.php'));
+        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views\\' . $this->name . '\show.blade.php'));
+        $this->files->copy(__DIR__ . '\index.blade.php', resource_path('views\\' . $this->name . '\edit.blade.php'));
     }
 
     /**
