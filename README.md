@@ -1,5 +1,11 @@
 # Comando Artisan para crear un recurso de vistas blade e agregarle un controlador y un modelo
 
+### Intalación
+Para instalar este comando artisan, sólo debemos de ejecutar el siguiente comando:
+
+`composer require ecreeth/laravel-resource-view`
+
+### Utilización del comando
 El comando `php artisan make:resource-view categories` creará una carpeta llamada __categories__. Dentro de la misma también se crearán los siguientes archivos: 
 
 * __index.blade.php__
